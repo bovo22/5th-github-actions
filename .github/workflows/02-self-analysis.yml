@@ -20,7 +20,7 @@ jobs:
       - name: 체크아웃 후 디렉토리 확인
         run: |
           pwd
-          ls -al = $LEVEL
+          ls -al
 
       - name: 워크플로우 디렉토리 확인
         run: |
